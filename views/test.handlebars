@@ -1,0 +1,24 @@
+<div>
+    {{message}}
+</div>
+
+<div>
+    <table>
+        {{#each names}}
+        <tr>
+            <td>{{this.fname}}</td>
+            <td>{{this.lname}}</td>
+        </tr>
+        {{/each}}
+    </table>
+</div>
+
+<div>
+    <table>
+        {{#if admin}}
+        <span>Is Admin</span>
+        {{else}}
+        <span>Is Not Admin</span>
+        {{/if}}
+    </table>
+</div>

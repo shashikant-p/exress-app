@@ -1,0 +1,29 @@
+{
+  "name": "exrpess-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashikant-p/exrpess-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashikant-p/exrpess-app/issues"
+  },
+  "homepage": "https://github.com/shashikant-p/exrpess-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "install": "^0.13.0",
+    "mongoose": "^6.0.3",
+    "npm": "^7.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
